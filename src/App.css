@@ -90,7 +90,7 @@ textarea {
 }
 
 .submit-btn {
-  background: #f77c40;
+  background: #1bce24;
   color: #fff;
 }
 
@@ -100,7 +100,7 @@ textarea {
 }
 
 .submit-btn:hover {
-  background: #e6692a;
+  background: #1bce24;
 }
 
 .reset-btn:hover {
@@ -121,7 +121,7 @@ textarea {
 .icon-btn {
   font-size: 24px;
   color: white;
-  background: #f77c40;
+  background: #1bce24;
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
@@ -129,7 +129,7 @@ textarea {
 }
 
 .icon-btn:hover {
-  background: #e6692a;
+  background: #1bce24;
 }
 
 
