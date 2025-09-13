@@ -1,6 +1,6 @@
 /* Background */
 .app-background {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background: #0f3c4c;
   display: flex;
