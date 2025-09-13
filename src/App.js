@@ -4,6 +4,7 @@ import { Document, Packer, Paragraph, TextRun } from "docx";
 import { saveAs } from "file-saver";
 import { FaDownload, FaTrash } from "react-icons/fa"; // ⬅️ icons
 import "./App.css";
+import logo from "./assets/image.png";
 
 function App() {
   const [formData, setFormData] = useState({
@@ -144,6 +145,9 @@ function App() {
       </div>
 
       <div className="form-box">
+  <div className="form-logo">
+    <img src={logo} alt="Company Logo" />
+  </div>
         <h2 className="form-title">GET IN TOUCH</h2>
         <p className="form-subtitle">
           If you have any queries kindly take a moment to fill up this form, our

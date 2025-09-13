@@ -133,4 +133,13 @@ textarea {
 }
 
 
+.form-logo {
+  text-align: left;
+  /* margin-bottom: 15px; */
+  margin-top: 0px;
+}
 
+.form-logo img {
+  max-width: 272px; /* adjust size */
+  height: auto;
+}
