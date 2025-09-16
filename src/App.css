@@ -2,7 +2,7 @@
 .app-background {
   height: 100%;
   width: 100vw;
-  background: #0f3c4c;
+background: linear-gradient(135deg, #FFD700, #6BBE45);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,29 +10,32 @@
   padding: 20px;
 }
 
+
 /* Form container */
 .form-box {
-  background: #0b2a35;
+  background: #ffff;
   padding: 30px 40px;
   border: 2px solid #ddd;
   border-radius: 8px;
   width: 100%;
   max-width: 550px;
-  color: #eee;
+  color: #000;
 }
 
 /* Title */
 .form-title {
   text-align: center;
-  color: #fff;
+  color: #000;
   margin-bottom: 5px;
+  font-size: 27px;
+  margin-top: 0px;
 }
 
 .form-subtitle {
   text-align: center;
   font-size: 13px;
   margin-bottom: 20px;
-  color: #cfcfcf;
+  color: #000;
 }
 
 /* Form rows */
@@ -55,8 +58,8 @@ textarea {
   border-radius: 4px;
   outline: none;
   font-size: 14px;
-  background: #133949;
-  color: #fff;
+  background: #ededed;
+  color: #000;
   width: 535px;
 }
 
